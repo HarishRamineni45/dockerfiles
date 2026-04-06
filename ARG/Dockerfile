@@ -1,9 +1,9 @@
 ARG version
 FROM almalinux:${version:-8}
 ARG COURSE="Docker" \
-    TRAINER="siva" \
-    DURATION ="10hrs" \
+    TRAINER="Sivakumar" \
+    DURATION="10HRS" \
     AUTHOR="joindevops"
 RUN echo "Trainer is: ${TRAINER}"
-CMD ["sleep","100"]
+CMD ["sleep", "200"]
 
